@@ -12,6 +12,15 @@ import { StaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./layout.css"
 
+/**
+ * my color scheme:
+ * #283d3b
+ * #197278
+ * #edddd4
+ * #c44536
+ * #772e25
+ */
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -35,7 +44,7 @@ const Layout = ({ children }) => (
           }}
         >
           <main>{children}</main>
-          <footer>
+          <footer style={{"font-size": "10px", marginTop: "30px"}}>
             © {new Date().getFullYear()}, Built with
             {` `}
             <a href="https://www.gatsbyjs.org">Gatsby</a>
