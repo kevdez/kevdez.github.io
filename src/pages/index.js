@@ -26,12 +26,35 @@ const IndexPage = ({
           "kevdez",
         ]}
       />
-      <p>hello. welcome to my site.</p>
       <article className="h-entry">
         <div className="e-content p-name">
-          This is my first indieweb blog. Let's hope I'm doing things right.
+          <p>Hello. Welcome to my site.</p>
+          <p>
+            This is the first blog of my own where I have full control over all
+            the content. As the site improves, I'll be targeting the direction
+            of this site for good Search Engine Optimization (
+            <a href="https://en.wikipedia.org/wiki/Search_engine_optimization">
+              SEO
+            </a>
+            ), web{" "}
+            <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility">
+              accessibility
+            </a>
+            , and <a href="https://indieweb.org/">IndieWeb</a> practices. Let's
+            hope I'm doing things correctly.
+          </p>
+          <p>
+            This site is built with <a href="#">Gatsby</a> as a static site,
+            hosted on <a href="#">GitHub Pages</a>. I specifically went for a
+            zero dollar website.
+          </p>
+          <p>
+            Expect things to move around often—the site is under heavy
+            construction.
+          </p>
         </div>
       </article>
+      <h4>Here are some recent blog posts:</h4>
       <div>{Posts}</div>
     </Layout>
   );

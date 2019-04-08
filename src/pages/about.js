@@ -4,13 +4,10 @@ import Layout from "../components/layout";
 
 export default ({ data }) => (
   <Layout>
-    <h1>About {data.site.siteMetadata.title}</h1>{" "}
+    <h1>About the site "{data.site.siteMetadata.title}"</h1>
     <p>
       {data.site.siteMetadata.description}
     </p>
-    <div>
-        by {data.site.siteMetadata.author}
-    </div>
   </Layout>
 );
 
