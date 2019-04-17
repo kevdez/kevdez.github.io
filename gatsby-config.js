@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `So what's next... ?`,
-    description: `A blog by Kevin Hernandez from California. I work as a software engineer at WalmartLabs, where I specialize in front-end applications.`,
+    description: `A blog by Kevin from California. I work as a software engineer at WalmartLabs, where I specialize in React and Hapi applications.`,
     keywords:
       "blog,portfolio,code,software,engineer,music,programming,node.js,rust,indieweb",
     author: `Kevin Hernandez @kevdez`,

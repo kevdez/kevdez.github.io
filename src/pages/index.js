@@ -44,8 +44,8 @@ const IndexPage = ({
             hope I'm doing things correctly.
           </p>
           <p>
-            This site is built with <a href="#">Gatsby</a> as a static site,
-            hosted on <a href="#">GitHub Pages</a>. I specifically went for a
+            This site is built with <a href="https://www.gatsbyjs.org/">Gatsby</a> as a static site,
+            hosted on <a href="https://pages.github.com/">GitHub Pages</a>. I specifically went for a
             zero dollar website.
           </p>
           <p>

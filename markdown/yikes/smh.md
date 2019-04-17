@@ -10,10 +10,9 @@ categories: ["#gatsby", "#website", "#cool"]
 
 ## Testing. Testing
 
-| hello  | this | is       | a     | table                                |
-| ------ | ---- | -------- | ----- | ------------------------------------ |
-| yahoo! |      | it works |       | (I need to fix the spacings though.) |
-| row2   |      | wow      | okay. |                                      |
+### Testing. Testing
+
+#### Testing. Testing
 
 _taps mic_
 
