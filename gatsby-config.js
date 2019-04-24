@@ -4,7 +4,7 @@ module.exports = {
     description: `A blog by Kevin from California. I work as a software engineer at WalmartLabs, where I specialize in React and Hapi applications.`,
     keywords:
       "blog,portfolio,code,software,engineer,music,programming,node.js,rust,indieweb",
-    author: `Kevin Hernandez @kevdez`,
+    author: `Kevin`,
   },
   plugins: [
     {
@@ -32,7 +32,7 @@ module.exports = {
         background_color: `#FF3399`,
         theme_color: `#66FF99`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     {

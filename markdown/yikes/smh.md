@@ -2,17 +2,14 @@
 path: "/yikes/smh"
 date: "2019-04-05 04:11:07-0700"
 title: "My site is back up again!"
-author: "Kevin Hernandez"
+author: "Kevin"
 categories: ["#gatsby", "#website", "#cool"]
 ---
-
 # Hello!
 
-## Testing. Testing
-
-### Testing. Testing
-
-#### Testing. Testing
+> this is 
+> a block
+> quote ? - kevin 
 
 _taps mic_
 
@@ -29,8 +26,6 @@ _wew_
 Do images work?
 
 ![arale.jpg is supposed to be displaying](./arale.jpg)
-
-This is a horrendous blog post.
 
 Yes, I am learning Gatsby and Markdown. 😅
 
@@ -51,4 +46,4 @@ int main() {
 }
 ```
 
-Okay, so this is cool. Thanks for reading! Stay tuned for more posts I guess. I'll delete this later. :)
+Okay, so this is cool. Thanks for reading! Stay tuned for more posts I guess. I'll probably delete this later. :)

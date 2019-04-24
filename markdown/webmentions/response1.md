@@ -1,8 +1,8 @@
 ---
-path: "/posts/response1"
+path: "/webmentions/response1"
 date: "2019-04-17 05:37:07-0700"
 title: "response to jackyalciné"
-author: "Kevin Hernandez"
+author: "Kevin"
 categories: ["#bridgy", "#indieweb"]
 ---
 

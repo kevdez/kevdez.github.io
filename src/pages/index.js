@@ -10,8 +10,13 @@ const IndexPage = ({
     allMarkdownRemark: { edges },
   },
 }) => {
+  console.log("edges:", edges);
   const Posts = edges
-    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
+    .filter(edge => {
+      const {date, path} = edge.node.frontmatter;
+      const isNotWebmention = p => !p.includes("webmentions");
+      return !!date && isNotWebmention(path);
+    }) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
   return (
     <Layout>
@@ -21,7 +26,7 @@ const IndexPage = ({
           "whatsnextforkev.in",
           "application",
           "indieweb",
-          "Kevin Hernandez",
+          "Kevin",
           "react",
           "kevdez",
         ]}
@@ -44,9 +49,10 @@ const IndexPage = ({
             hope I'm doing things correctly.
           </p>
           <p>
-            This site is built with <a href="https://www.gatsbyjs.org/">Gatsby</a> as a static site,
-            hosted on <a href="https://pages.github.com/">GitHub Pages</a>. I specifically went for a
-            zero dollar website.
+            This site is built with{" "}
+            <a href="https://www.gatsbyjs.org/">Gatsby</a> as a static site,
+            hosted on <a href="https://pages.github.com/">GitHub Pages</a>. I
+            specifically went for a zero dollar website.
           </p>
           <p>
             Expect things to move around often—the site is under heavy
