@@ -1,13 +1,13 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("@reach/router"), require("core-js/modules/es6.array.iterator"), require("core-js/modules/es6.array.sort"), require("core-js/modules/es6.function.name"), require("core-js/modules/es6.map"), require("core-js/modules/es6.object.assign"), require("core-js/modules/es6.object.to-string"), require("core-js/modules/es6.regexp.constructor"), require("core-js/modules/es6.regexp.split"), require("core-js/modules/es6.regexp.to-string"), require("core-js/modules/es6.string.ends-with"), require("core-js/modules/es6.string.iterator"), require("core-js/modules/web.dom.iterable"), require("crypto"), require("fs"), require("lodash"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
+		module.exports = factory(require("@reach/router"), require("core-js/modules/es6.array.iterator"), require("core-js/modules/es6.array.sort"), require("core-js/modules/es6.function.name"), require("core-js/modules/es6.map"), require("core-js/modules/es6.object.assign"), require("core-js/modules/es6.object.to-string"), require("core-js/modules/es6.regexp.constructor"), require("core-js/modules/es6.regexp.split"), require("core-js/modules/es6.regexp.to-string"), require("core-js/modules/es6.string.ends-with"), require("core-js/modules/es6.string.includes"), require("core-js/modules/es6.string.iterator"), require("core-js/modules/es7.array.includes"), require("core-js/modules/web.dom.iterable"), require("crypto"), require("fs"), require("lodash"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else if(typeof define === 'function' && define.amd)
-		define("lib", ["@reach/router", "core-js/modules/es6.array.iterator", "core-js/modules/es6.array.sort", "core-js/modules/es6.function.name", "core-js/modules/es6.map", "core-js/modules/es6.object.assign", "core-js/modules/es6.object.to-string", "core-js/modules/es6.regexp.constructor", "core-js/modules/es6.regexp.split", "core-js/modules/es6.regexp.to-string", "core-js/modules/es6.string.ends-with", "core-js/modules/es6.string.iterator", "core-js/modules/web.dom.iterable", "crypto", "fs", "lodash", "path", "react", "react-dom/server", "react-helmet"], factory);
+		define("lib", ["@reach/router", "core-js/modules/es6.array.iterator", "core-js/modules/es6.array.sort", "core-js/modules/es6.function.name", "core-js/modules/es6.map", "core-js/modules/es6.object.assign", "core-js/modules/es6.object.to-string", "core-js/modules/es6.regexp.constructor", "core-js/modules/es6.regexp.split", "core-js/modules/es6.regexp.to-string", "core-js/modules/es6.string.ends-with", "core-js/modules/es6.string.includes", "core-js/modules/es6.string.iterator", "core-js/modules/es7.array.includes", "core-js/modules/web.dom.iterable", "crypto", "fs", "lodash", "path", "react", "react-dom/server", "react-helmet"], factory);
 	else if(typeof exports === 'object')
-		exports["lib"] = factory(require("@reach/router"), require("core-js/modules/es6.array.iterator"), require("core-js/modules/es6.array.sort"), require("core-js/modules/es6.function.name"), require("core-js/modules/es6.map"), require("core-js/modules/es6.object.assign"), require("core-js/modules/es6.object.to-string"), require("core-js/modules/es6.regexp.constructor"), require("core-js/modules/es6.regexp.split"), require("core-js/modules/es6.regexp.to-string"), require("core-js/modules/es6.string.ends-with"), require("core-js/modules/es6.string.iterator"), require("core-js/modules/web.dom.iterable"), require("crypto"), require("fs"), require("lodash"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
+		exports["lib"] = factory(require("@reach/router"), require("core-js/modules/es6.array.iterator"), require("core-js/modules/es6.array.sort"), require("core-js/modules/es6.function.name"), require("core-js/modules/es6.map"), require("core-js/modules/es6.object.assign"), require("core-js/modules/es6.object.to-string"), require("core-js/modules/es6.regexp.constructor"), require("core-js/modules/es6.regexp.split"), require("core-js/modules/es6.regexp.to-string"), require("core-js/modules/es6.string.ends-with"), require("core-js/modules/es6.string.includes"), require("core-js/modules/es6.string.iterator"), require("core-js/modules/es7.array.includes"), require("core-js/modules/web.dom.iterable"), require("crypto"), require("fs"), require("lodash"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else
-		root["lib"] = factory(root["@reach/router"], root["core-js/modules/es6.array.iterator"], root["core-js/modules/es6.array.sort"], root["core-js/modules/es6.function.name"], root["core-js/modules/es6.map"], root["core-js/modules/es6.object.assign"], root["core-js/modules/es6.object.to-string"], root["core-js/modules/es6.regexp.constructor"], root["core-js/modules/es6.regexp.split"], root["core-js/modules/es6.regexp.to-string"], root["core-js/modules/es6.string.ends-with"], root["core-js/modules/es6.string.iterator"], root["core-js/modules/web.dom.iterable"], root["crypto"], root["fs"], root["lodash"], root["path"], root["react"], root["react-dom/server"], root["react-helmet"]);
-})(this, function(__WEBPACK_EXTERNAL_MODULE__reach_router__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_array_iterator__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_array_sort__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_function_name__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_map__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_object_assign__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_object_to_string__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_regexp_constructor__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_regexp_split__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_regexp_to_string__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_string_ends_with__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_string_iterator__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_web_dom_iterable__, __WEBPACK_EXTERNAL_MODULE_crypto__, __WEBPACK_EXTERNAL_MODULE_fs__, __WEBPACK_EXTERNAL_MODULE_lodash__, __WEBPACK_EXTERNAL_MODULE_path__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__, __WEBPACK_EXTERNAL_MODULE_react_helmet__) {
+		root["lib"] = factory(root["@reach/router"], root["core-js/modules/es6.array.iterator"], root["core-js/modules/es6.array.sort"], root["core-js/modules/es6.function.name"], root["core-js/modules/es6.map"], root["core-js/modules/es6.object.assign"], root["core-js/modules/es6.object.to-string"], root["core-js/modules/es6.regexp.constructor"], root["core-js/modules/es6.regexp.split"], root["core-js/modules/es6.regexp.to-string"], root["core-js/modules/es6.string.ends-with"], root["core-js/modules/es6.string.includes"], root["core-js/modules/es6.string.iterator"], root["core-js/modules/es7.array.includes"], root["core-js/modules/web.dom.iterable"], root["crypto"], root["fs"], root["lodash"], root["path"], root["react"], root["react-dom/server"], root["react-helmet"]);
+})(this, function(__WEBPACK_EXTERNAL_MODULE__reach_router__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_array_iterator__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_array_sort__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_function_name__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_map__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_object_assign__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_object_to_string__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_regexp_constructor__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_regexp_split__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_regexp_to_string__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_string_ends_with__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_string_includes__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_string_iterator__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_es7_array_includes__, __WEBPACK_EXTERNAL_MODULE_core_js_modules_web_dom_iterable__, __WEBPACK_EXTERNAL_MODULE_crypto__, __WEBPACK_EXTERNAL_MODULE_fs__, __WEBPACK_EXTERNAL_MODULE_lodash__, __WEBPACK_EXTERNAL_MODULE_path__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__, __WEBPACK_EXTERNAL_MODULE_react_helmet__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -118,7 +118,7 @@ var plugins = [{
     "background_color": "#FF3399",
     "theme_color": "#66FF99",
     "display": "minimal-ui",
-    "icon": "src/images/gatsby-icon.png"
+    "icon": "src/images/favicon.png"
   }
 }, {
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-typography/gatsby-ssr */ "./node_modules/gatsby-plugin-typography/gatsby-ssr.js"),
@@ -376,7 +376,7 @@ exports.wrapRootElement = true;
 /*! exports provided: pages, dataPaths, default */
 /***/ (function(module) {
 
-module.exports = {"pages":[{"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-pages-about-js","jsonName":"about-f34","path":"/about/"},{"componentChunkName":"component---node-modules-gatsby-plugin-offline-app-shell-js","jsonName":"offline-plugin-app-shell-fallback-a30","path":"/offline-plugin-app-shell-fallback/"},{"componentChunkName":"component---src-templates-blog-post-js","jsonName":"posts-response-1-1ca","path":"/posts/response1/"},{"componentChunkName":"component---src-templates-blog-post-js","jsonName":"yikes-smh-573","path":"/yikes/smh/"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","about-f34":"154/path---about-f-34-4c2-akeQqInFQQN5hWh4TjXxUZ2AXKU","blog-hello-world-050":"860/path---blog-hello-world-050-675-xqmEE66nKzHnyQj38O44uRwcrA","blog-hello-world-47c":"189/path---blog-hello-world-47-c-0e0-xqmEE66nKzHnyQj38O44uRwcrA","blog-my-first-post-ac2":"119/path---blog-my-first-post-ac-2-66c-BawJvyh36KKFwbrWPg4a4aYuc8","blog-yikes-test-872":"258/path---blog-yikes-test-872-4fc-YVmU2a8LvzWaBy0IQWu99lhJaLc","dev-404-page-5f9":"386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8","hello-world-8bc":"953/path---hello-world-8-bc-b62-h86lRh2qNRNOV8mWmevfcXGz1U","index":"126/path---index-6a9-f2pbNG9Mp3mSV3VM1v8vnhUFno","offline-plugin-app-shell-fallback-a30":"604/path---offline-plugin-app-shell-fallback-a-30-c5a-BawJvyh36KKFwbrWPg4a4aYuc8","page-2-fbc":"726/path---page-2-fbc-5a8-0SUcWyAf8ecbYDsMhQkEfPzV8","posts-response-1-1ca":"699/path---posts-response-1-1-ca-5a9-xHdqVIuk1hzqLiLasK87vf2w","sq--src-components-image-js":2011440971,"sq--src-components-layout-js":755544856,"sq--src-components-seo-js":2417117884,"yikes-dawg-801":"378/path---yikes-dawg-801-707-JI7n6L3mbJR4wVVvRa0FiaTYpM","yikes-smh-573":"987/path---yikes-smh-573-78a-cxsTHkg43SUtBgZeE311JFbJGDc","yikes-test-fdb":"682/path---yikes-test-fdb-257-WrQp54eluX6INkcM71Tda6sxlw"}};
+module.exports = {"pages":[{"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-pages-about-js","jsonName":"about-f34","path":"/about/"},{"componentChunkName":"component---node-modules-gatsby-plugin-offline-app-shell-js","jsonName":"offline-plugin-app-shell-fallback-a30","path":"/offline-plugin-app-shell-fallback/"},{"componentChunkName":"component---src-templates-blog-post-js","jsonName":"webmentions-response-1-ca7","path":"/webmentions/response1/"},{"componentChunkName":"component---src-templates-blog-post-js","jsonName":"work-team-lead-521","path":"/work/team-lead/"},{"componentChunkName":"component---src-templates-blog-post-js","jsonName":"yikes-smh-573","path":"/yikes/smh/"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","about-f34":"284/path---about-f-34-4c2-fewwNWPgXl2BIxnfccv4WFTvtik","blog-hello-world-050":"860/path---blog-hello-world-050-675-xqmEE66nKzHnyQj38O44uRwcrA","blog-hello-world-47c":"189/path---blog-hello-world-47-c-0e0-xqmEE66nKzHnyQj38O44uRwcrA","blog-my-first-post-ac2":"119/path---blog-my-first-post-ac-2-66c-BawJvyh36KKFwbrWPg4a4aYuc8","blog-yikes-test-872":"258/path---blog-yikes-test-872-4fc-YVmU2a8LvzWaBy0IQWu99lhJaLc","dev-404-page-5f9":"386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8","hello-world-8bc":"953/path---hello-world-8-bc-b62-h86lRh2qNRNOV8mWmevfcXGz1U","index":"526/path---index-6a9-afffGn1kbe8kjYWmcdnGDukxII","offline-plugin-app-shell-fallback-a30":"604/path---offline-plugin-app-shell-fallback-a-30-c5a-BawJvyh36KKFwbrWPg4a4aYuc8","page-2-fbc":"726/path---page-2-fbc-5a8-0SUcWyAf8ecbYDsMhQkEfPzV8","posts-response-1-1ca":"594/path---posts-response-1-1-ca-5a9-AAayj0NdUOLpWZreafD2rdO3lc","sq--src-components-image-js":2011440971,"sq--src-components-layout-js":755544856,"sq--src-components-seo-js":2417117884,"webmentions-response-1-ca7":"50/path---webmentions-response-1-ca-7-86c-OTlKDteYH2OqTT6mZncZtPCCZc","work-team-lead-521":"730/path---work-team-lead-521-f63-kX8P3B2AdMAR6hi7BT9a1cmItBU","yikes-dawg-801":"378/path---yikes-dawg-801-707-JI7n6L3mbJR4wVVvRa0FiaTYpM","yikes-smh-573":"68/path---yikes-smh-573-78a-j3MYOvKiHDuNvGbCkIQ2Uz4nFs","yikes-test-fdb":"682/path---yikes-test-fdb-257-WrQp54eluX6INkcM71Tda6sxlw"}};
 
 /***/ }),
 
@@ -6338,7 +6338,7 @@ var t=Object.getOwnPropertySymbols,e=Object.prototype.hasOwnProperty,r=Object.pr
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = {"data":{"site":{"siteMetadata":{"title":"So what's next... ?","description":"A blog by Kevin from California. I work as a software engineer at WalmartLabs, where I specialize in React and Hapi applications.","author":"Kevin Hernandez @kevdez"}}}};
+module.exports = {"data":{"site":{"siteMetadata":{"title":"So what's next... ?","description":"A blog by Kevin from California. I work as a software engineer at WalmartLabs, where I specialize in React and Hapi applications.","author":"Kevin"}}}};
 
 /***/ }),
 
@@ -6735,12 +6735,18 @@ var query = "2668640626";
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pageQuery", function() { return pageQuery; });
-/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_post_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/post-link */ "./src/components/post-link.jsx");
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
-/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
+/* harmony import */ var core_js_modules_es7_array_includes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es7.array.includes */ "core-js/modules/es7.array.includes");
+/* harmony import */ var core_js_modules_es7_array_includes__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es7_array_includes__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es6_string_includes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es6.string.includes */ "core-js/modules/es6.string.includes");
+/* harmony import */ var core_js_modules_es6_string_includes__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_string_includes__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_post_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/post-link */ "./src/components/post-link.jsx");
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
+/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
+
+
 
 
 
@@ -6749,37 +6755,57 @@ __webpack_require__.r(__webpack_exports__);
 
 var IndexPage = function IndexPage(_ref) {
   var edges = _ref.data.allMarkdownRemark.edges;
+  console.log("edges:", edges);
   var Posts = edges.filter(function (edge) {
-    return !!edge.node.frontmatter.date;
+    var _edge$node$frontmatte = edge.node.frontmatter,
+        date = _edge$node$frontmatte.date,
+        path = _edge$node$frontmatte.path;
+
+    var isNotWebmention = function isNotWebmention(p) {
+      return !p.includes("webmentions");
+    };
+
+    return !!date && isNotWebmention(path);
   }) // You can filter your posts based on some criteria
   .map(function (edge) {
-    return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_components_post_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])(_components_post_link__WEBPACK_IMPORTED_MODULE_4__["default"], {
       key: edge.node.id,
       post: edge.node
     });
   });
-  return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_components_layout__WEBPACK_IMPORTED_MODULE_3__["default"], null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_components_seo__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])(_components_layout__WEBPACK_IMPORTED_MODULE_5__["default"], null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])(_components_seo__WEBPACK_IMPORTED_MODULE_6__["default"], {
     title: "What's next for Kevin?",
-    keywords: ["whatsnextforkev.in", "application", "indieweb", "Kevin Hernandez", "react", "kevdez"]
-  }), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])("article", {
+    keywords: ["whatsnextforkev.in", "application", "indieweb", "Kevin", "react", "kevdez"]
+  }), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("article", {
     className: "h-entry"
-  }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+  }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("div", {
     className: "e-content p-name"
-  }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", null, "Hello. Welcome to my site."), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", null, "This is the first blog of my own where I have full control over all the content. As the site improves, I'll be targeting the direction of this site for good Search Engine Optimization (", Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
+  }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("p", null, "Hello. Welcome to my site."), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("p", null, "This is the first blog of my own where I have full control over all the content. As the site improves, I'll be targeting the direction of this site for good Search Engine Optimization (", Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("a", {
     href: "https://en.wikipedia.org/wiki/Search_engine_optimization"
-  }, "SEO"), "), web", " ", Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
+  }, "SEO"), "), web", " ", Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("a", {
     href: "https://developer.mozilla.org/en-US/docs/Web/Accessibility"
-  }, "accessibility"), ", and ", Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
+  }, "accessibility"), ", and ", Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("a", {
     href: "https://indieweb.org/"
-  }, "IndieWeb"), " practices. Let's hope I'm doing things correctly."), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", null, "This site is built with ", Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
+  }, "IndieWeb"), " practices. Let's hope I'm doing things correctly."), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("p", null, "This site is built with", " ", Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("a", {
     href: "https://www.gatsbyjs.org/"
-  }, "Gatsby"), " as a static site, hosted on ", Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
+  }, "Gatsby"), " as a static site, hosted on ", Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("a", {
     href: "https://pages.github.com/"
-  }, "GitHub Pages"), ". I specifically went for a zero dollar website."), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", null, "Expect things to move around often\u2014the site is under heavy construction."))), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])("h4", null, "Here are some recent blog posts:"), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", null, Posts));
+  }, "GitHub Pages"), ". I specifically went for a zero dollar website."), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("p", null, "Expect things to move around often\u2014the site is under heavy construction."))), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("h4", null, "Here are some recent blog posts:"), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("div", null, Posts));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (IndexPage);
 var pageQuery = "3473231669";
+
+/***/ }),
+
+/***/ "./src/templates/blog-post.css":
+/*!*************************************!*\
+  !*** ./src/templates/blog-post.css ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// empty (null-loader)
 
 /***/ }),
 
@@ -6797,6 +6823,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
+/* harmony import */ var _blog_post_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./blog-post.css */ "./src/templates/blog-post.css");
+/* harmony import */ var _blog_post_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_blog_post_css__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
@@ -6811,17 +6840,17 @@ __webpack_require__.r(__webpack_exports__);
       path = _post$frontmatter.path;
   console.log(categories);
   var CategoriesList = categories.map(function (cat) {
-    return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
+    return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {
       key: cat
     }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
       className: "p-category",
       href: "/about"
-    }, cat));
+    }, cat, " "));
   });
   return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_components_layout__WEBPACK_IMPORTED_MODULE_2__["default"], null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])("article", {
     className: "h-entry"
   }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])("h1", null, post.frontmatter.title), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
-    className: "e-content",
+    className: "e-content blog-content",
     dangerouslySetInnerHTML: {
       __html: html
     }
@@ -6834,7 +6863,7 @@ __webpack_require__.r(__webpack_exports__);
     href: "" + path
   }, "Published ", Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])("time", {
     className: "dt-published"
-  }, date)), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])("ul", null, CategoriesList)));
+  }, date)), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", null, CategoriesList)));
 });
 var query = "4262383805";
 
@@ -6849,13 +6878,19 @@ var query = "4262383805";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var typography__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! typography */ "./node_modules/typography/dist/index.js");
-/* harmony import */ var typography__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(typography__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var typography_theme_st_annes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! typography-theme-st-annes */ "./node_modules/typography-theme-st-annes/dist/index.js");
-/* harmony import */ var typography_theme_st_annes__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(typography_theme_st_annes__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var core_js_modules_es6_object_assign__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es6.object.assign */ "core-js/modules/es6.object.assign");
+/* harmony import */ var core_js_modules_es6_object_assign__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_object_assign__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var typography__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! typography */ "./node_modules/typography/dist/index.js");
+/* harmony import */ var typography__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(typography__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var typography_theme_st_annes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! typography-theme-st-annes */ "./node_modules/typography-theme-st-annes/dist/index.js");
+/* harmony import */ var typography_theme_st_annes__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(typography_theme_st_annes__WEBPACK_IMPORTED_MODULE_2__);
 
 
-var typography = new typography__WEBPACK_IMPORTED_MODULE_0___default.a(typography_theme_st_annes__WEBPACK_IMPORTED_MODULE_1___default.a);
+
+var typography = new typography__WEBPACK_IMPORTED_MODULE_1___default.a(Object.assign(typography_theme_st_annes__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  headerColor: "#283d3b",
+  bodyColor: "#197278"
+}));
 /* harmony default export */ __webpack_exports__["default"] = (typography);
 
 /***/ }),
@@ -6981,6 +7016,17 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_string_ends_with_
 
 /***/ }),
 
+/***/ "core-js/modules/es6.string.includes":
+/*!******************************************************!*\
+  !*** external "core-js/modules/es6.string.includes" ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_string_includes__;
+
+/***/ }),
+
 /***/ "core-js/modules/es6.string.iterator":
 /*!******************************************************!*\
   !*** external "core-js/modules/es6.string.iterator" ***!
@@ -6989,6 +7035,17 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_string_ends_with_
 /***/ (function(module, exports) {
 
 module.exports = __WEBPACK_EXTERNAL_MODULE_core_js_modules_es6_string_iterator__;
+
+/***/ }),
+
+/***/ "core-js/modules/es7.array.includes":
+/*!*****************************************************!*\
+  !*** external "core-js/modules/es7.array.includes" ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = __WEBPACK_EXTERNAL_MODULE_core_js_modules_es7_array_includes__;
 
 /***/ }),
 
