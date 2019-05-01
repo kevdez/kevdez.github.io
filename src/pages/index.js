@@ -33,7 +33,7 @@ const IndexPage = ({
       />
       <article className="h-entry">
         <div className="e-content p-name">
-          <p>Hello. Welcome to my site.</p>
+          <p>Welcome.</p>
           <p>
             This is the first blog of my own where I have full control over all
             the content. As the site improves, I'll be targeting the direction

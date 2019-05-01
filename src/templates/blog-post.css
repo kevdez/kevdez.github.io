@@ -10,16 +10,6 @@
   letter-spacing: .6px;
 }
 
-.h-entry h1,
-.blog-content h1,
-.blog-content h2,
-.blog-content h3,
-.blog-content h4,
-.blog-content h5,
-.blog-content h6 {
-  color: var(--gunmetal-color);
-}
-
 .blog-content blockquote {
     border-color: var(--madder-lake-color);
 }
